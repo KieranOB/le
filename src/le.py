@@ -22,14 +22,14 @@ DEFAULT_USER_KEY = NOT_SET
 DEFAULT_AGENT_KEY = NOT_SET
 
 # Configuration files
-CONFIG_DIR_SYSTEM = '/etc/le'
+CONFIG_DIR_SYSTEM = '/usr/local/le'
 CONFIG_DIR_USER = '.le'
 LE_CONFIG = 'config' # Default configuration file
 CACHE_NAME = 'cache'
 CONF_SUFFIX = '.conf' # Expected suffix of configuration files
 
 LOCAL_CONFIG_DIR_USER = '.le'
-LOCAL_CONFIG_DIR_SYSTEM = '/etc/le'
+LOCAL_CONFIG_DIR_SYSTEM = '/usr/local/le'
 
 PID_FILE = '/var/run/logentries.pid'
 
