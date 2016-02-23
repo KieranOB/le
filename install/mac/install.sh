@@ -22,13 +22,13 @@ FILES="le.py backports.py utils.py __init__.py metrics.py formats.py"
 LE_PARENT="https://raw.githubusercontent.com/logentries/le/master/src/"
 CURL="/usr/bin/env curl -O"
 
-INSTALL_DIR="/usr/share/logentries"
+INSTALL_DIR="/usr/local/logentries"
 LOGGER_CMD="logger -t LogentriesTest Test Message Sent By LogentriesAgent"
 DAEMON="com.logentries.agent.plist"
 DAEMON_DL_LOC="https://raw.githubusercontent.com/logentries/le/master/install/mac/$DAEMON"
 DAEMON_PATH="/Library/LaunchDaemons/"
 
-INSTALL_PATH="/usr/bin/le"
+INSTALL_PATH="/usr/local/bin/le"
 REGISTER_CMD="$INSTALL_PATH register"
 LE_FOLLOW="$INSTALL_PATH follow"
 
